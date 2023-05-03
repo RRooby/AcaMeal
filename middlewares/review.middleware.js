@@ -1,6 +1,6 @@
 const Review = require('../models/reviews.model');
-const catchAsync = require('../helpers/catchAsync');
-const AppError = require('../helpers/appError');
+const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 
 exports.validIfExistReview = catchAsync(async (req, res, next) => {
   const { restaurantId, id } = req.params;

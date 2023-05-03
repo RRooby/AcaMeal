@@ -1,8 +1,8 @@
 const User = require('../models/users.model');
 const Order = require('../models/orders.model');
-const catchAsync = require('../helpers/catchAsync');
+const catchAsync = require('../utils/catchAsync');
 const bcrypt = require('bcryptjs');
-const generateJWT = require('../helpers/jwt');
+const generateJWT = require('../utils/jwt');
 const Meals = require('../models/meals.model');
 const Restaurant = require('../models/restaurants.model');
 

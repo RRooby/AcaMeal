@@ -1,4 +1,4 @@
-const AppError = require('../helpers/appError');
+const AppError = require('../utils/appError');
 
 const handleCastError22P02 = () =>
   new AppError(

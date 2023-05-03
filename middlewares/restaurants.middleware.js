@@ -1,6 +1,6 @@
 const Restaurant = require('../models/restaurants.model');
-const catchAsync = require('../helpers/catchAsync');
-const AppError = require('../helpers/appError');
+const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 const Review = require('../models/reviews.model');
 
 exports.validIfExistRestaurant = catchAsync(
